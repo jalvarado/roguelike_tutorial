@@ -1,0 +1,20 @@
+import tcod
+
+SCREEN_WIDTH = 80
+SCREEN_HEIGHT = 50
+LIMIT_FPS = 20
+
+FONT_PATH = 'arial10x10.png'
+FONT_FLAGS = tcod.FONT_TYPE_GREYSCALE | tcod.FONT_LAYOUT_TCOD
+
+MAP_WIDTH = 80
+MAP_HEIGHT = 45
+MAX_ROOMS = 15
+
+COLOR_DARK_WALL = tcod.Color(0, 0, 100)
+COLOR_DARK_GROUND = tcod.Color(50, 50, 150)
+
+# Field of View settings
+FOV_ALGO = 0 # Default tcod FOV aglorithm
+FOV_LIGHT_WALLS = True
+TORCH_RADIUS = 10
